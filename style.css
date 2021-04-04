@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+  }  
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
