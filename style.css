@@ -12,6 +12,7 @@ body {
 
 /* apply styles to <header> */
 header {
+    width: 100%;
     padding: 20px 35px;
     background-color: #39a6b2;
   }
@@ -35,7 +36,7 @@ header nav {
   }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
   }
 
 header nav ul li a {
@@ -43,7 +44,8 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
   }
-  
+
+/* footer styles start */
 footer {
     background: #fce138;
     width: 100%;
@@ -66,8 +68,49 @@ footer div {
 footer a {
     color: #024e76;
   }
+/* footer styles end */
 
 section {
     padding: 60px;
-    background-image: url("../run-buddy/assets/images/hero-bg.jpeg");
   }
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../run-buddy/assets/images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+  }
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+/* Hero Style End */
+  
