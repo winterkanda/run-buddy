@@ -9,6 +9,7 @@
     <body>
         <!--navigation-->
         <header>
+
             <h1>RUN BUDDY</h1>
             <nav>
                 <!-- Unordered list element -->
@@ -203,9 +204,14 @@
         
         <!---"reach out" section-->
         <section id="reach-out" class="contact">
-            <h2 class="section-title secondary-border">Reach Out</h2>
-            
-            <div class="contact-info">
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    Reach Out
+                </h2>
+            </div>
+
+            <div class="row">
+            <div class="contact-info col">
                 <div>
                     <h3>Run Buddy</h3>
 
@@ -219,29 +225,36 @@
                         55 Main Street <br/>
                         Some Town, Ca <br/>
                         12345<br />
-                        P: <a href="tel:555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br/>
+                        P: 555.RUN.BUDZ (555.786.2839)<br/>
                         E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                     </address>
 
                 </div>
+            </div>
 
                 <div class="contact-form">
                     <h3>Contact Us</h3>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
+                        <form>
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" placeholder="Your Name" />
               
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" placeholder="Message"></textarea>
               
-                        <button type="submit">Submit</button>
-                    </form>
+                            <button type="submit">Submit</button>
+                        </form>
                 </div>
 
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12613.441363616406!2d-122.43249936935781!3d37.78159423531605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580bd6ceed27f%3A0xe27ccdea567a296!2sTurk%20St%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1617531032082!5m2!1sen!2sus"  
-                    frameborder="0" style="border:0" allowfullscreen></iframe>
-                
+            <div class="col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12613.441363616406!2d-122.43249936935781!3d37.78159423531605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580bd6ceed27f%3A0xe27ccdea567a296!2sTurk%20St%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1617531032082!5m2!1sen!2sus">  
+                    frameborder="0" 
+                    style="border:0" 
+                    allowfullscreen=""
+                </iframe>
+            </div>
+                    
+                </div>
             </div>
         </section>
 

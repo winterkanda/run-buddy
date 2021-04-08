@@ -314,13 +314,13 @@ section {
 }
 
 .contact-form button {
-    width: 100%
-    border: none
-    background: #fce138
-    color: #024e76
-    text-align: center
-    padding: 15px 0
-    font-size: 16px
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 /* REACH OUT STYLES END */
 
@@ -336,5 +336,14 @@ section {
 
 .contact-info div {
     color: white;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
 }
 /*end of styling the iframe*/
