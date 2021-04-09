@@ -50,32 +50,6 @@ header nav ul li a {
     font-size: 1.55vw;
   }
 
-/* footer styles start */
-footer {
-    display: flex;
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-
-footer a {
-    color: #024e76;
-  }
-/* footer styles end */
-
 section {
     padding: 60px;
   }
@@ -251,18 +225,6 @@ section {
     line-height: 1.3;
   }
 
-.text-left {
-    text-align: left;
-  }
-  
-.text-right {
-    text-align: right;
-  }
-
-.flex-row {
-    display: flex;
-}
-
 .trainer-bio h3 {
     font-size: 28px;
   }
@@ -286,31 +248,53 @@ section {
     color: #fce138;
   }
 
+/* REACH OUT STYLES END */
+
+/*styling the iframe*/
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info iframe {
+    height: 400px;
+}
+
+.contact-info div {
+    color: white;
+}
+
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-  }
-  
+}
+
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-  }
-  
+}
+
 .contact-info a {
     color: #fce138;
-  }
+}
 
 .contact-form input, .contact-form textarea {
-    border: 1px solid #024e76
-    display: block
-    padding: 7px 15px
-    font-size: 16px
-    color: #024e76
-    width: 100%
-    margin-bottom: 15px
-    margin-top: 5px
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -322,28 +306,57 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
-/* REACH OUT STYLES END */
 
-/*styling the iframe*/
-.contact-info > * {
-    flex: 1;
-    margin: 15px;
+.contact-form button:hover {
+    color:#fce138;
+    background: #39a6b2;
 }
 
-.contact-info iframe {
-    height: 400px;
+.text-left {
+    text-align: left;
+  }
+  
+.text-right {
+    text-align: right;
+  }
+
+.flex-row {
+    display: flex;
 }
 
-.contact-info div {
-    color: white;
-}
+/* footer styles start */
+footer {
+    display: flex;
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-.col {
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
+footer a {
+    color: #024e76;
+  }
+/* footer styles end */
+
+/* .col {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .row {
     display: flex;
 }
+
 /*end of styling the iframe*/
